@@ -1,18 +1,14 @@
 
-# Heritage Semantic Segmentation — Suzhou Urban Heritage Study
+# Heritage Semantic Segmentation — Suzhou Case
 
-This repository provides the semantic segmentation inference code
-accompanying the paper:
+This repository provides the semantic segmentation inference code accompanying the paper:
 
 Reconstructing Contested Urban Heritage Spaces via Crowdsourced Prompts in Suzhou
 
 ## Overview
 
-`cityscapes_solve.py` runs pixel-level semantic segmentation
-on street-view imagery using **Mask2Former** (Swin-L backbone, ADE20K),
-then remaps all 150 ADE20K categories onto a custom **8-class heritage
-ontology** (Water Bodies, Traditional Facades, Modern Commercials,
-Industrial Structures, Greenery, Human Figures, Sky, Ground Surfaces).
+`cityscapes_solve.py` runs pixel-level semantic segmentation on street-view imagery using **Mask2Former** (Swin-L backbone, ADE20K), then remaps all 150 ADE20K categories onto a custom **8-class heritage
+ontology** (Water Bodies, Traditional Facades, Modern Commercials, Industrial Structures, Greenery, Human Figures, Sky, Ground Surfaces).
 
 ## Outputs
 
