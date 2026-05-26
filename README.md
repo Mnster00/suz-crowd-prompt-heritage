@@ -7,7 +7,7 @@ Reconstructing Contested Urban Heritage Spaces via Crowdsourced Prompts in Suzho
 
 ## Overview
 
-`cityscapes_solve.py` runs pixel-level semantic segmentation on street-view imagery using **Mask2Former** (Swin-L backbone, ADE20K), then remaps all 150 ADE20K categories onto a custom **8-class heritage
+`cityscapes_solve_v4_adv2kto8.py` runs pixel-level semantic segmentation on street-view imagery using **Mask2Former** (Swin-L backbone, ADE20K), then remaps all 150 ADE20K categories onto a custom **8-class heritage
 ontology** (Water Bodies, Traditional Facades, Modern Commercials, Industrial Structures, Greenery, Human Figures, Sky, Ground Surfaces).
 
 ## Outputs
