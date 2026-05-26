@@ -4,7 +4,7 @@
 This repository provides the semantic segmentation inference code
 accompanying the paper:
 
-> Reconstructing Contested Urban Heritage Spaces via Crowdsourced Prompts in Suzhou
+Reconstructing Contested Urban Heritage Spaces via Crowdsourced Prompts in Suzhou
 
 ## Overview
 
@@ -39,6 +39,4 @@ Absent classes are rendered with hatched stubs to preserve full
 taxonomy legibility in figures.
 ```
 
----
 
-约150词，重点覆盖代码逻辑（模型、映射表、输出文件、依赖、用法），以少量文字点出论文背景。
